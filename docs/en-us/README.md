@@ -1,8 +1,8 @@
 # screenshot2code
 
 <p align="center">
-  <a href="./README_en.md">English</a> |
-  <a href="./README.md">简体中文</a>
+  <a href="https://linyujupiter.github.io/screenshot2code/en-us">English</a> |
+  <a href="https://linyujupiter.github.io/screenshot2code/">简体中文</a>
 </p>
 
 

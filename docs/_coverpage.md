@@ -8,5 +8,5 @@
 - 实时显示效果
 - 安装使用友好
 
-[GitHub](https://github.com/LinyuJupiter/screenshot2code)
+[Download](https://github.com/LinyuJupiter/screenshot2code/releases)
 [Get Started](/introduction/quickstart)

@@ -8,7 +8,7 @@
 
 一个简单的使用AI将屏幕截图转换成纯代码的小工具。
 
-<img src="./images/demo.gif" alt="演示图片">
+<img src="https://raw.githubusercontent.com/LinyuJupiter/screenshot2code/main/images/demo.gif" alt="演示图片">
 
 ## 🎉 特性
 - **HTML+tailwind**: 可以将屏幕截图转换成HTML+tailwind。
@@ -17,8 +17,11 @@
 - **更多功能**: 还在开发中。
 
 ## 🚀 无需配置即可使用
+本项目目前只能在Windows系统上运行。
 
-您可以在发行版里面直接下载并使用此项目的Windows安装包，根据安装程序进行安装并使用，无需配置任何依赖。
+您可以在Releases里面直接下载并使用此项目的Windows安装包，根据安装程序进行安装并使用，无需配置任何依赖。
+
+您也可以在Releases里面直接下载Screenshot2code.7z并解压，双击运行/Screenshot2code/Screenshot2code.exe，无需配置任何依赖。
 
 ## 🛠 本地配置
 
@@ -95,7 +98,7 @@ stop.bat   # 终止服务
 # 或者使用以下命令
 python3 start.py
 ```
-在Windows系统上，您也可以进入backend/backend文件夹，双击运行backend.exe文件。
+在Windows系统上，您也可以在Releases里面直接下载backend.7z并解压，双击运行/backend/backend.exe，无需配置任何依赖。
 
 ### 3. 运行前端界面
 
@@ -105,7 +108,7 @@ python3 start.py
 cd frontend
 python3 main.py
 ```
-或者您也可以进入frontend/frontend文件夹，双击运行frontend.exe文件。
+您也可以在Releases里面直接下载frontend.7z并解压，双击运行/frontend/frontend.exe，无需配置任何依赖。
 
 
 
@@ -115,7 +118,7 @@ python3 main.py
 
 | 原始图像                                                                                                                                                       | 转换后                                                                                                                                                         |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="images/img1.png"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="images/img2.png"> |
+| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="https://raw.githubusercontent.com/LinyuJupiter/screenshot2code/main/images/img1.png"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="https://raw.githubusercontent.com/LinyuJupiter/screenshot2code/main/images/img2.png"> |
 
 ## 🙋‍♂️ FAQs
 
