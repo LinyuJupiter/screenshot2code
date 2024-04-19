@@ -1,68 +1,68 @@
-# Backend Project Overview
+# 后端项目概述
 
-## Project Structure
+## 项目结构
 
 ```
-│  app.log # Log file
-│  config.json # Environment variable storage file
-│  favicon.ico # Icon for packaging the application
-│  load_env.py # Load environment variables
-│  main.py # Main program
-│  packing.sh # Packaging script
-│  run.bat # Script to start the backend service for Windows systems
-│  run.sh # Script to start the backend service for Linux systems
-│  start.py # Code to manually start the main program
-│  stop.bat # Script to stop the backend service for Windows systems
-│  stop.sh # Script to stop the backend service for Linux systems
-│  test.html # Test webpage file
-│  testing.py # Code for testing backend interfaces
+│  app.log # 日志文件
+│  config.json # 环境变量储存文件
+│  favicon.ico # 打包应用的图标
+│  load_env.py # 加载环境变量
+│  main.py # 主程序
+│  packing.sh # 打包脚本
+│  run.bat # Windows系统所用的启动后端服务脚本
+│  run.sh # Linux系统所用的启动后端服务脚本
+│  start.py # 手动启动主程序的代码
+│  stop.bat # Windows系统所用的停止后端服务脚本
+│  stop.sh # Linux系统所用的停止后端服务脚本
+│  test.html # 测试用网页文件
+│  testing.py # 测试后端接口代码
 │  
 ├─generation
-│      generate_code.py # Main interface
-│      image_generation.py # Send messages to and receive responses from the image generation model
-│      llm.py # Send messages to and receive responses from the large model
+│      generate_code.py # 总接口
+│      image_generation.py # 向图像生成模型发送信息并接收响应
+│      llm.py # 向大模型发送信息并接收响应
 │      __init__.py
 │      
 └─prompts
-        system_prompt.py # Collection of system prompt word variables
-        __init__.py # Provides functions to assemble prompt words and dialogue record arrays
+        system_prompt.py # 系统提示词变量集合
+        __init__.py # 提供组装提示词与对话记录数组的函数
+
 ```
 
-## Project Logic
+## 项目逻辑
 
-The main logic of the backend program is mainly in `generation/generate_code.py`, which serves as the main interface of the entire backend program.
+后端程序的主要逻辑主要在`generation/generate_code.py`中，该文件是整个后端程序的总接口。
 
-The frontend program communicates with the backend's `localhost:7001/generate-code` interface, which establishes a websocket connection with the frontend. It calls the `stream_code` function in `generation/generate_code.py`, which in turn calls functions in `generation/image_generation.py` and `generation/llm.py` to implement the code and image generation functions, and sends status information and streaming responses to the frontend.
+前端程序与后端的`localhost:7001/generate-code`接口进行通信，该接口与前端建立websocket连接，调用`generation/generate_code.py`中的`stream_code`函数，该函数调用`generation/image_generation.py`中的函数与`generation/llm.py`中的函数，实现代码与图像生成功能，并向前端发送状态信息与流式响应。
 
-## Running the Backend Interface
+## 运行后端界面
 
-After installing all dependencies, you can start the backend service with the following command:
+在安装了所有依赖之后，您可以通过以下命令启动后端服务：
 
 ```bash
 cd backend
 uvicorn main:app --host 0.0.0.0 --port 7001
 
-# Or use the following command
+# 或者使用以下命令
 python3 start.py
 ```
 
-On a Linux server, you can also start or stop the backend service with the following commands:
+在Linux服务器上，您也可以通过以下命令启动或终止后端服务：
 
 ```bash
 cd backend
-sh run.sh  # Start the service
-sh stop.sh # Stop the service
+sh run.sh  # 启动服务
+sh stop.sh # 终止服务
 ```
 
-On a Windows system, you can also start or stop the backend service with the following commands:
+在Windows系统上，您也可以通过以下命令启动或终止后端服务：
 
 ```bash
 cd backend
-run.bat  # Start the service
-stop.bat   # Stop the service
+run.bat  # 启动服务
+stop.bat   # 终止服务
 
-# Or use the following command
+# 或者使用以下命令
 python3 start.py
 ```
-
-On a Windows system, you can also directly download backend.7z from [Releases](https://github.com/LinyuJupiter/screenshot2code/releases) and extract it. Double-click on /backend/backend.exe to run it without configuring any dependencies.
+在Windows系统上，您也可以在[Releases](https://github.com/LinyuJupiter/screenshot2code/releases)里面直接下载backend.7z并解压，双击运行/backend/backend.exe，无需配置任何依赖。
