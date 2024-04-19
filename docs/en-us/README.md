@@ -1,9 +1,10 @@
 # screenshot2code
 
 <p align="center">
-  <a href="https://linyujupiter.github.io/screenshot2code/en-us">English</a> |
+  <a href="https://linyujupiter.github.io/screenshot2code/#/en-us/">English</a> |
   <a href="https://linyujupiter.github.io/screenshot2code/">简体中文</a>
 </p>
+
 
 
 A simple tool that uses AI to convert screenshots into pure code.
@@ -19,9 +20,9 @@ A simple tool that uses AI to convert screenshots into pure code.
 ## 🚀 Ready to Use
 This project currently runs only on Windows systems.
 
-You can directly download and use the Windows installer of this project from Releases, install and use it according to the installer without configuring any dependencies.
+You can directly download and use the Windows installer of this project from [Releases](https://github.com/LinyuJupiter/screenshot2code/releases), install and use it according to the installer without configuring any dependencies.
 
-Alternatively, you can download Screenshot2code.7z from Releases and extract it. Double-click on /Screenshot2code/Screenshot2code.exe to run it without configuring any dependencies.
+Alternatively, you can download Screenshot2code.7z from [Releases](https://github.com/LinyuJupiter/screenshot2code/releases) and extract it. Double-click on /Screenshot2code/Screenshot2code.exe to run it without configuring any dependencies.
 
 ## 🛠 Local Setup
 
@@ -99,7 +100,7 @@ stop.bat   # Stop the service
 python3 start.py
 ```
 
-On a Windows system, you can also download backend.7z from Releases and extract it. Double-click on /backend/backend.exe to run it without configuring any dependencies.
+On a Windows system, you can also download backend.7z from [Releases](https://github.com/LinyuJupiter/screenshot2code/releases) and extract it. Double-click on /backend/backend.exe to run it without configuring any dependencies.
 
 ### 3. Run the Frontend Interface
 
@@ -110,7 +111,7 @@ cd frontend
 python3 main.py
 ```
 
-You can also download frontend.7z from Releases and extract it. Double-click on /frontend/frontend.exe to run it without configuring any dependencies.
+You can also download frontend.7z from [Releases](https://github.com/LinyuJupiter/screenshot2code/releases) and extract it. Double-click on /frontend/frontend.exe to run it without configuring any dependencies.
 
 
 

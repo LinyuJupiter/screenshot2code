@@ -1,7 +1,7 @@
 # screenshot2code
 
 <p align="center">
-  <a href="https://linyujupiter.github.io/screenshot2code/en-us">English</a> |
+  <a href="https://linyujupiter.github.io/screenshot2code/#/en-us/">English</a> |
   <a href="https://linyujupiter.github.io/screenshot2code/">简体中文</a>
 </p>
 
@@ -19,9 +19,9 @@
 ## 🚀 无需配置即可使用
 本项目目前只能在Windows系统上运行。
 
-您可以在Releases里面直接下载并使用此项目的Windows安装包，根据安装程序进行安装并使用，无需配置任何依赖。
+您可以在[Releases](https://github.com/LinyuJupiter/screenshot2code/releases)里面直接下载并使用此项目的Windows安装包，根据安装程序进行安装并使用，无需配置任何依赖。
 
-您也可以在Releases里面直接下载Screenshot2code.7z并解压，双击运行/Screenshot2code/Screenshot2code.exe，无需配置任何依赖。
+您也可以在[Releases](https://github.com/LinyuJupiter/screenshot2code/releases)里面直接下载Screenshot2code.7z并解压，双击运行/Screenshot2code/Screenshot2code.exe，无需配置任何依赖。
 
 ## 🛠 本地配置
 
@@ -98,7 +98,7 @@ stop.bat   # 终止服务
 # 或者使用以下命令
 python3 start.py
 ```
-在Windows系统上，您也可以在Releases里面直接下载backend.7z并解压，双击运行/backend/backend.exe，无需配置任何依赖。
+在Windows系统上，您也可以在[Releases](https://github.com/LinyuJupiter/screenshot2code/releases)里面直接下载backend.7z并解压，双击运行/backend/backend.exe，无需配置任何依赖。
 
 ### 3. 运行前端界面
 
@@ -108,7 +108,7 @@ python3 start.py
 cd frontend
 python3 main.py
 ```
-您也可以在Releases里面直接下载frontend.7z并解压，双击运行/frontend/frontend.exe，无需配置任何依赖。
+您也可以在[Releases](https://github.com/LinyuJupiter/screenshot2code/releases)里面直接下载frontend.7z并解压，双击运行/frontend/frontend.exe，无需配置任何依赖。
 
 
 
