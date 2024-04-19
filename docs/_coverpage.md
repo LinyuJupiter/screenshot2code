@@ -9,4 +9,4 @@
 - 安装使用友好
 
 [Download](https://github.com/LinyuJupiter/screenshot2code/releases)
-[Get Started](/introduction/quickstart)
+[Get Started](/introduction)
