@@ -8,7 +8,7 @@
 
 一个简单的使用AI将屏幕截图转换成纯代码的小工具。
 
-<img src="https://raw.githubusercontent.com/LinyuJupiter/screenshot2code/main/images/demo.gif" alt="演示图片">
+<img src="images/README/demo.gif" alt="演示图片">
 
 ## 🎉 特性
 - **HTML+tailwind**: 可以将屏幕截图转换成HTML+tailwind。
@@ -118,7 +118,7 @@ python3 main.py
 
 | 原始图像                                                                                                                                                       | 转换后                                                                                                                                                         |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="https://raw.githubusercontent.com/LinyuJupiter/screenshot2code/main/images/img1.png"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="https://raw.githubusercontent.com/LinyuJupiter/screenshot2code/main/images/img2.png"> |
+| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="images/README/img1.png"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="images/README/img2.png"> |
 
 ## 🙋‍♂️ FAQs
 

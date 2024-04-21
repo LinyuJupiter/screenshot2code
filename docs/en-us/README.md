@@ -9,7 +9,7 @@
 
 A simple tool that uses AI to convert screenshots into pure code.
 
-<img src="https://raw.githubusercontent.com/LinyuJupiter/screenshot2code/main/images/demo.gif" alt="Demo Image">
+<img src="images/README/demo.gif" alt="Demo Image">
 
 ## 🎉 Features
 - **HTML+tailwind**: Converts screenshots into HTML+tailwind.
@@ -121,7 +121,7 @@ You can also download frontend.7z from [Releases](https://github.com/LinyuJupite
 
 | Original Image                                                                                                                                                  | Converted Image                                                                                                                                                |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="https://raw.githubusercontent.com/LinyuJupiter/screenshot2code/main/images/img1.png"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="https://raw.githubusercontent.com/LinyuJupiter/screenshot2code/main/images/img2.png"> |
+| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="images/README/img1.png"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="images/README/img2.png"> |
 
 ## 🙋‍♂️ FAQs
 
